@@ -15,6 +15,7 @@ import java.util.Scanner;
  * Use enumerators to avoid input errors
  * and print the status details. 
  * @author srinivsi
+ * @modifier Zohaib Kasmani
  */
 public class Status {
 
@@ -23,6 +24,16 @@ public class Status {
      */
     public static void main(String[] args)
     {
+        int []num=new int[4];
+        
+        InputGenerator g1=new InputGenerator();
+        g1.generate();
+        
+      // for(UserInput c: generate.data){
+        //   System.out.println(c.getInputs());
+           
+       
+        
     Scanner in =new Scanner(System.in);
     System.out.println("Enter the user status code (zero,one,two,three) in string");
     String code = in.next();
